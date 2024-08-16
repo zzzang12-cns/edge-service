@@ -32,5 +32,5 @@ spec:
           value: http://order-service.default.svc.cluster.local
         - name: SPRING_CLOUD_CONFIG_URI
           value: http://config-service.default.svc.cluster.local
-        - name: SPRING_REDIS_HOST
+        - name: SPRING_DATA_REDIS_HOST
           value: polar-redis.default.svc.cluster.local
